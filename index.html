@@ -1,30 +1,69 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
+  <!-- FAVICONS -->
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
   <link rel="manifest" href="/assets/images/favicon/site.webmanifest">
+
+  <!-- BASIC SEO -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>BinaryWorks — Portfólio</title>
-  <meta name="description" content="BinaryWorks — Desenvolvimento front-end, ajustes rápidos e customização de e-commerce (plataformas digitais). Entrega rápida, preço justo." />
+  <title>BinaryWorks — Desenvolvimento Rápido, Ajustes e Landing Pages</title>
+  <meta name="description" content="BinaryWorks — Ajustes rápidos, melhorias visuais, landing pages e otimização de lojas online. Entrega rápida, comunicação clara e foco em eficiência e resultado." />
+
+  <!-- KEYWORDS -->
+  <meta name="keywords" content="desenvolvedor front-end, freelancer, landing page, ajustes rápidos, loja virtual, melhorias visuais, desenvolvimento web, BinaryWorks">
+
+  <!-- AUTHOR -->
+  <meta name="author" content="BinaryWorks">
+  <!-- OPEN GRAPH -->
+  <meta property="og:title" content="BinaryWorks — Desenvolvimento Rápido, Ajustes e Landing Pages">
+  <meta property="og:description" content="Ajustes rápidos, melhorias visuais, landing pages e otimização de lojas online com foco em eficiência e resultado.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://SEUDOMINIO.com/banner.png">
+  <meta property="og:url" content="https://SEUDOMINIO.com">
+  <!-- TWITTER CARD -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BinaryWorks — Desenvolvimento Rápido">
+  <meta name="twitter:description" content="Ajustes rápidos e landing pages com foco em eficiência">
+  <meta name="twitter:image" content="https://SEUDOMINIO.com/banner.png">
+  <!-- SCHEMA.ORG (Melhora Google) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "BinaryWorks",
+    "url": "https://SEUDOMINIO.com",
+    "logo": "https://SEUDOMINIO.com/assets/images/logo.svg",
+    "description": "Ajustes rápidos, melhorias visuais, landing pages e customização de lojas online.",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "availableLanguage": "Portuguese",
+      "url": "https://wa.me/5535988940640"
+    }
+  }
+  </script>
+
+  <!-- FONTS & CSS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/style/style.css"
+  <link rel="stylesheet" href="/assets/style/style.css">
 </head>
+
 <body>
   <div class="wrap">
     <header>
       <div class="brand">
-        <div class="logo" aria-hidden="true">
-          <!-- substitua pela sua versão SVG branco/transparente -->
-          <img src="/assets/images/logo.svg" alt="BinaryWorks" style="width:36px;height:36px"/>
+        <div class="logo">
+          <img src="/assets/images/logo.svg" alt="Logo BinaryWorks" width="36" height="36"/>
         </div>
         <div>
           <h1 style="margin:0;font-size:18px">BinaryWorks</h1>
-          <p style="margin:0;font-size:12px" class="muted">Entrega rápida • Ajustes sob demanda • Landing pages • Lojas online</p>
+          <p class="muted" style="margin:0;font-size:12px">Entrega rápida • Ajustes sob demanda • Landing pages • Lojas online</p>
         </div>
       </div>
 
@@ -36,118 +75,142 @@
         <a href="#contact">Contato</a>
       </nav>
     </header>
+    <main>
+      <section class="hero">
+        <div class="left card">
+          <h2>Transformo seu site ou loja em algo mais bonito, funcional e pronto para vender.</h2>
+          <p class="muted">Ajustes, melhorias e landing pages com entrega rápida, comunicação clara e <strong>foco em eficiência e resultado</strong>.</p>
 
-    <!-- HERO -->
-    <section class="hero">
-      <div class="left card">
-        <h2 style="margin:0 0 12px">Transformo seu site ou loja em algo mais bonito, funcional e pronto para vender.</h2>
-        <p class="muted" style="margin:0 0 14px">Ajustes, melhorias e landing pages com entrega rápida, comunicação clara e <strong>foco em resultado e eficiência</strong>.</p>
+          <div class="cta">
+            <a class="btn btn-primary" href="https://wa.me/5535988940640" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+            <a class="btn btn-ghost" href="#projects">Ver projetos</a>
+          </div>
 
-        <div class="cta">
-          <a class="btn btn-primary" href="https://wa.me/55SEUNUMERO" target="_blank" rel="noopener">Chamar no WhatsApp</a>
-          <a class="btn btn-ghost" href="#projects">Ver projetos</a>
-        </div>
-
-        <div style="margin-top:16px;color:var(--muted);font-size:13px">Entrega rápida — ajustes a partir de R$50 — planos de manutenção</div>
-      </div>
-
-      <aside class="card" style="display:flex;flex-direction:column;justify-content:space-between;">
-        <div>
-          <h4 style="margin:0 0 8px">Serviço rápido</h4>
-          <p class="muted" style="margin:0 0 12px">Alterações visuais, correções e pequenas melhorias para deixar sua página mais organizada, profissional e agradável ao cliente.</p>
-          <div style="display:flex;gap:8px;flex-wrap:wrap">
-            <div style="min-width:160px;padding:12px;border-radius:8px;background:rgba(255,255,255,0.02)"><strong>Correção visual</strong><div class="muted">R$ 50–150</div></div>
-            <div style="min-width:160px;padding:12px;border-radius:8px;background:rgba(255,255,255,0.02)"><strong>Landing Page</strong><div class="muted">R$ 350+</div></div>
+          <div style="margin-top:16px;font-size:13px;color:var(--muted)">
+            Entrega rápida — ajustes a partir de R$50 — planos de manutenção
           </div>
         </div>
 
-        <div style="margin-top:12px;font-size:13px;color:var(--muted)">Atuação em plataformas digitais • Entregas rápidas • Atendimento direto</div>
-      </aside>
-    </section>
+        <aside class="card">
+          <div>
+            <h4>Serviço rápido</h4>
+            <p class="muted">Alterações visuais, correções e pequenas melhorias para deixar sua página mais organizada, profissional e convidativa ao cliente.</p>
 
-    <!-- SOBRE -->
-    <section id="about" class="card">
-      <h3 style="margin-top:0">Sobre</h3>
-      <p class="muted" style="margin-bottom:8px">
-        Sou desenvolvedor front-end com experiência em agência de marketing e atuação atual em uma instituição bancária. Essa combinação me trouxe disciplina, visão estratégica e foco em resultados práticos.
-      </p>
-      <p class="muted" style="margin-bottom:0">
-        Atendo pequenas empresas, lojas online e profissionais que precisam de entregas rápidas e objetivas. Para ver meus projetos pessoais e experimentos, acesse meu portfólio pessoal:
-        <a href="https://bdportfolio.vercel.app/" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;margin-left:6px">bdportfolio.vercel.app</a>
-      </p>
-    </section>
+            <div style="display:flex;gap:8px;flex-wrap:wrap">
+              <div class="mini-box"><strong>Correção visual</strong><div class="muted">R$ 50–150</div></div>
+              <div class="mini-box"><strong>Landing Page</strong><div class="muted">R$ 350+</div></div>
+            </div>
+          </div>
 
-    <!-- SERVIÇOS -->
-    <section id="services">
-      <h3 style="margin:0 0 12px">Serviços</h3>
-      <div class="services">
-        <div class="card service">
-          <h4 style="margin:0 0 8px">Ajustes rápidos</h4>
-          <p class="muted">Alterações visuais, reorganização de conteúdo, troca de banners e pequenos reparos. Entrega no mesmo dia.</p>
+          <div style="margin-top:12px;font-size:13px;color:var(--muted)">Atuação em plataformas digitais • Entregas rápidas • Atendimento direto</div>
+        </aside>
+      </section>
+
+      <section id="about" class="card">
+        <h3>Sobre</h3>
+        <p class="muted">
+          Sou desenvolvedor front-end com experiência em agência de marketing e atuação atual em instituição bancária. Essa combinação me trouxe disciplina, visão estratégica e foco em resultados práticos.
+        </p>
+        <p class="muted">
+          Atendo pequenas empresas, lojas online e profissionais que precisam de entregas rápidas e objetivas.  
+          Confira meu portfólio pessoal:
+          <a href="https://bdportfolio.vercel.app/" target="_blank" rel="noopener" class="highlight">bdportfolio.vercel.app</a>
+        </p>
+      </section>
+
+      <section id="services">
+        <h3>Serviços</h3>
+
+        <div class="services">
+          <div class="card service">
+            <h4>Ajustes rápidos</h4>
+            <p class="muted">Alterações visuais, troca de banners, reorganização de conteúdo e pequenos reparos. Entrega no mesmo dia.</p>
+          </div>
+
+          <div class="card service">
+            <h4>Landing Pages</h4>
+            <p class="muted">Páginas claras, estratégicas e focadas em conversão. Entrega média: 1–2 dias.</p>
+          </div>
+
+          <div class="card service">
+            <h4>Customização de lojas</h4>
+            <p class="muted">Ajustes no layout, melhoria de navegação e organização das informações para aumentar a confiança e a usabilidade.</p>
+          </div>
         </div>
+      </section>
 
-        <div class="card service">
-          <h4 style="margin:0 0 8px">Landing Pages</h4>
-          <p class="muted">Páginas claras, focadas em apresentar seu produto/serviço e gerar conversões. Entrega média: 1–2 dias.</p>
+      <section id="projects">
+        <h3 style="margin-top:18px">Projetos</h3>
+
+        <div class="projects">
+          <article class="project card">
+            <div class="thumb">Landing Clean</div>
+            <div class="meta"><div class="muted">Página leve e objetiva focada na captura de leads. Entrega: 1 dia.</div></div>
+          </article>
+
+          <article class="project card">
+            <div class="thumb">Loja Reformulada</div>
+            <div class="meta"><div class="muted">Melhoria do layout, navegação e adaptação mobile.</div></div>
+          </article>
+
+          <article class="project card">
+            <div class="thumb">Site Institucional</div>
+            <div class="meta"><div class="muted">Site simples e direto para apresentação de serviços e empresa.</div></div>
+          </article>
         </div>
+      </section>
 
-        <div class="card service">
-          <h4 style="margin:0 0 8px">Customização de lojas online</h4>
-          <p class="muted">Ajustes no layout e organização das informações para deixar a loja mais confiável e fácil de usar.</p>
+      <section id="plans" style="display:none">
+        <h3>Planos de Manutenção</h3>
+
+        <div class="pricing">
+          <div class="plan card">
+            <h4>Plano Essencial</h4>
+            <p class="muted">Pequenos ajustes mensais, trocas de banners e pequenas correções.</p>
+          </div>
+
+          <div class="plan card">
+            <h4>Plano Profissional</h4>
+            <p class="muted">Ajustes constantes, melhorias e manutenção semanal.</p>
+          </div>
+
+          <div class="plan card">
+            <h4>Plano Premium</h4>
+            <p class="muted">Suporte prioritário, melhorias contínuas e otimizações frequentes.</p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- PROJETOS -->
-    <section id="projects">
-      <h3 style="margin:18px 0 12px">Projetos</h3>
-      <div class="projects">
-        <article class="project card">
-          <div class="thumb" style="padding:18px;background:rgba(255,255,255,0.01);border-radius:8px">Landing Clean</div>
-          <div class="meta" style="padding:10px"><div class="muted">Landing page de alta conversão com visual leve e objetivo. Entrega: 1 dia</div></div>
-        </article>
+      <section id="pricing">
+        <h3 style="margin-top:18px">Preços</h3>
 
-        <article class="project card">
-          <div class="thumb" style="padding:18px;background:rgba(255,255,255,0.01);border-radius:8px">Loja Reformulada</div>
-          <div class="meta" style="padding:10px"><div class="muted">Reorganização do layout, melhorias de navegação e adaptação para dispositivos móveis.</div></div>
-        </article>
+        <div class="pricing">
+          <div class="price card"><h3>R$ 50</h3><div class="small muted">Ajustes rápidos (até 30 min)</div></div>
+          <div class="price card"><h3>R$ 350+</h3><div class="small muted">Landing page</div></div>
+          <div class="price card"><h3>R$ 1.000+</h3><div class="small muted">Site institucional</div></div>
+        </div>
+      </section>
 
-        <article class="project card">
-          <div class="thumb" style="padding:18px;background:rgba(255,255,255,0.01);border-radius:8px">Site Institucional</div>
-          <div class="meta" style="padding:10px"><div class="muted">Página simples, direta e profissional para apresentar empresa ou serviço.</div></div>
-        </article>
-      </div>
-    </section>
+      <section id="contact" class="card">
+        <h3>Contato</h3>
+        <p class="muted">Fale direto pelo WhatsApp para orçamento rápido e sem burocracia.</p>
 
-    <!-- PREÇOS -->
-    <section id="pricing">
-      <h3 style="margin:18px 0 12px">Preços</h3>
-      <div class="pricing">
-        <div class="price card" style="text-align:center"><h3 style="margin:6px 0">R$ 50</h3><div class="small muted">Ajustes rápidos (até 30 min)</div></div>
-        <div class="price card" style="text-align:center"><h3 style="margin:6px 0">R$ 350+</h3><div class="small muted">Landing page</div></div>
-        <div class="price card" style="text-align:center"><h3 style="margin:6px 0">R$ 1.000+</h3><div class="small muted">Site institucional</div></div>
-      </div>
-    </section>
+        <p><strong>WhatsApp:</strong> <a href="https://wa.me/5535988940640" class="highlight">(35) 98894-0640</a></p>
+        <p><strong>E-mail:</strong> <a href="mailto:seuemail@email.com" class="highlight">seuemail@email.com</a></p>
 
-    <!-- CONTATO -->
-    <section id="contact" class="card">
-      <h3 style="margin-top:0">Contato</h3>
-      <p class="muted">Fale direto pelo WhatsApp para orçamento rápido e avaliação sem burocracia.</p>
-      <p style="margin:8px 0"><strong>WhatsApp:</strong> <a style="color:var(--accent);text-decoration:none" href="https://wa.me/5535988940640">(35) 988940640</a></p>
-      <p style="margin:8px 0"><strong>E-mail:</strong> <a style="color:var(--accent);text-decoration:none" href="mailto:seuemail@email.com">seuemail@email.com</a></p>
-
-      <form style="margin-top:12px;display:grid;grid-template-columns:1fr 1fr;gap:10px" onsubmit="event.preventDefault();alert('Formulário de exemplo — configurar integração real')">
-        <input style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.03);background:transparent;color:inherit" placeholder="Seu nome" required />
-        <input style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.03);background:transparent;color:inherit" placeholder="Seu e-mail" type="email" required />
-        <textarea style="grid-column:1/3;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.03);background:transparent;color:inherit" placeholder="Descreva o que precisa" rows="4"></textarea>
-        <button class="btn btn-primary" style="grid-column:1/3">Enviar mensagem</button>
-      </form>
-    </section>
-
+        <form onsubmit="event.preventDefault();alert('Formulário demonstrativo')">
+          <input placeholder="Seu nome" required>
+          <input placeholder="Seu e-mail" type="email" required>
+          <textarea placeholder="Descreva o que precisa" rows="4"></textarea>
+          <button class="btn btn-primary">Enviar mensagem</button>
+        </form>
+      </section>
+    </main>
     <footer>
       <div>© <span id="year"></span> BinaryWorks — Desenvolvimento e otimização</div>
-      <div class="small">Siga: <a style="color:var(--accent);text-decoration:none" href="#">Instagram</a> • <a style="color:var(--accent);text-decoration:none" href="#">LinkedIn</a></div>
+      <div class="small">Siga: <a class="highlight" href="#">Instagram</a> • <a class="highlight" href="#">LinkedIn</a></div>
     </footer>
+
   </div>
 
   <script>
